@@ -1,0 +1,5 @@
+{
+  "op": "less",
+  "path": "/a/b", 
+  "value": 15
+}

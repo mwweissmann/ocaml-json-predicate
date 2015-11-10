@@ -1,0 +1,5 @@
+{
+  "op": "ends",
+  "path": "/a/b", 
+  "value": " test"
+}

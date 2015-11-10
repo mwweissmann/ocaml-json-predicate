@@ -1,0 +1,6 @@
+{
+  "op": "matches", 
+  "path": "/a/b/", 
+  "value": "[\\w\\s]*", 
+  "ignore_case": true
+}

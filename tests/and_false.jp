@@ -1,0 +1,15 @@
+{
+  "op": "and",
+  "apply": [
+    {
+      "op": "test",
+      "path": "/a/c",
+      "value": "hello"
+    },
+    {
+      "op": "type",
+      "path": "/a/c", 
+      "value": "string"
+    }
+  ]
+}

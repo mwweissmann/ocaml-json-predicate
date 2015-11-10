@@ -1,0 +1,6 @@
+{
+  "op": "starts",
+  "path": "/a/b/", 
+  "value": "this ", 
+  "ignore_case": true
+}

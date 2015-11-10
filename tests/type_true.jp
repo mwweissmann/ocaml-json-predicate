@@ -1,0 +1,5 @@
+{
+  "op": "type",
+  "path": "/a/b", 
+  "value": "string"
+}

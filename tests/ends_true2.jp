@@ -1,0 +1,6 @@
+{
+  "op": "ends",
+  "path": "/a/b/", 
+  "value": " TEST", 
+  "ignore_case": true
+}

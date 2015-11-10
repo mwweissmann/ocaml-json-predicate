@@ -1,0 +1,38 @@
+OASISFormat: 0.4
+Name:        json-predicate
+Version:     0.1
+Synopsis:    JSON predicate
+Authors:     Markus Weissmann
+License:     MIT
+Plugins:     META (0.4)
+
+Library "json-predicate"
+  Path:         src
+  BuildTools:   ocamlbuild
+  Modules:      Json_predicate
+  BuildDepends: str, yojson, result, bytes, json-pointer
+
+Document doclib
+  Title:                API reference for JSON predicate
+  Type:                 ocamlbuild (0.3)
+  Install:              false
+  BuildTools+:          ocamlbuild, ocamldoc
+  XOCamlbuildPath:      src
+  XOCamlbuildLibraries: json-predicate
+
+Executable "eval"
+  Path:       src
+  MainIs:     eval.ml
+  BuildDepends: json-predicate
+  CompiledObject: best
+  BuildTools: ocamlbuild
+  Install: false
+
+Executable "test"
+  Path:       src
+  MainIs:     test.ml
+  BuildDepends: json-predicate
+  CompiledObject: best
+  BuildTools: ocamlbuild
+  Install: false
+

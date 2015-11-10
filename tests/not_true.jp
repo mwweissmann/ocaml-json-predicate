@@ -1,0 +1,14 @@
+{
+  "op": "not",
+  "apply": [
+    {
+      "op": "defined", 
+      "path": "/a/b/e"
+    },
+    {
+      "op": "less", 
+      "path": "/a/c/d", 
+      "value": 5
+    }
+  ]
+}

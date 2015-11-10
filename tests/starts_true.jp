@@ -1,0 +1,5 @@
+{
+  "op": "starts",
+  "path": "/a/b", 
+  "value": "This "
+}

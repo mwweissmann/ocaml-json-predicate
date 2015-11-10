@@ -1,0 +1,12 @@
+# OASIS_START
+# DO NOT EDIT (digest: 4756de8c05d613928d3830a64c3b5307)
+version = "0.1"
+description = "JSON predicate"
+requires = "str yojson result bytes json-pointer"
+archive(byte) = "json-predicate.cma"
+archive(byte, plugin) = "json-predicate.cma"
+archive(native) = "json-predicate.cmxa"
+archive(native, plugin) = "json-predicate.cmxs"
+exists_if = "json-predicate.cma"
+# OASIS_STOP
+

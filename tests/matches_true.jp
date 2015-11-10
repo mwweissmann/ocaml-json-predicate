@@ -1,0 +1,5 @@
+{
+  "op": "matches",
+  "path": "/a/b", 
+  "value": "[\\w\\s]*"
+}

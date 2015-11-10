@@ -1,0 +1,6 @@
+{
+  "op": "contains",
+  "path": "/a/b/", 
+  "value": " Is A ", 
+  "ignore_case": true
+}

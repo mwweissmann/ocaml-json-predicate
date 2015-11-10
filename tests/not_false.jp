@@ -1,0 +1,14 @@
+{
+  "op": "not",
+  "apply": [
+    {
+      "op": "undefined", 
+      "path": "/a/c"
+    },
+    {
+      "op": "starts", 
+      "path": "/a/b", 
+      "value": "f"
+    }
+  ]
+}

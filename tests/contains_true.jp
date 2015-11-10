@@ -1,0 +1,5 @@
+{
+  "op": "contains",
+  "path": "/a/b", 
+  "value": " is a "
+}

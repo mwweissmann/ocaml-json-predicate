@@ -1,0 +1,15 @@
+{
+  "op": "or",
+  "apply": [
+    {
+      "op": "test",
+      "path": "/a/e",
+      "value": "foo"
+    },
+    {
+      "op": "test",
+      "path": "/a/f",
+      "value": "bar"
+    }
+  ]
+}
