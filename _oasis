@@ -1,6 +1,6 @@
 OASISFormat: 0.4
 Name:        json-predicate
-Version:     0.1
+Version:     0.1.0
 Synopsis:    JSON predicate
 Authors:     Markus Weissmann
 License:     MIT
