@@ -45,7 +45,8 @@ let _ =
 
 There is basically only one function ```exec```:
 ```ocaml
-val exec : Yojson.Safe.json -> (Yojson.Safe.json -> bool, [> `EInvalid_argument of string]) Result.result
+val exec : Yojson.Safe.json ->
+    (Yojson.Safe.json -> bool, [> `EInvalid_argument of string]) Result.result
 
 val exec_exn : Yojson.Safe.json -> (Yojson.Safe.json -> bool)
 ```
